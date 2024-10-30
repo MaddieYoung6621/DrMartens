@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Caraque';
+	src:url(../fonts/CaraqueVF_Trial_WghtMelt.ttf) format("truetype");
+}
+
+.container {
+	width:336px;
+	height:280px;
+	border: solid 1px black;
+	background: url(../images/DrMartensWHITE.jpg);no-repeat; 
+	background-size: 95%;
+	background-position-y: -100px;
+	position: absolute;
+	left: 50% ;
+	top: 50%; 
+	transform: translate(-50%, -50%); 
+}
+
+.docs {
+	width: 150px; 
+	Position: absolute
+	left: 20px;
+	top: 30px;
+}
+
+.title {
+	font-family: 'Caraque';
+	font-size: 23px;
+	position: absolute;
+	left:10%;
+	top: 25%; 
+	z-index: 1;
+	color: black;
+}
+
+.tagline {
+	font-family: 'Caraque';
+	font-size: 15px;
+	position: absolute;
+	letter-spacing: 0.3px;
+	left:17%;
+	top: 35%;
+	z-index: 1;
+	color: goldenrod;
+	z-index: 1;
+}
+
+.button {
+	font-family: 'Caraque';
+	display: block;
+	width: 336px;
+	height: 30px;
+	background: darkgoldenrod;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	line-height: 28px;
+	text-decoration: none;
+	color: White;
+}
